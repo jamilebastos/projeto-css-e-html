@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio html e css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacao-principal">
+            <div class="nav-titulo">
+            <h1>Portfólio</h1>
+            </div>
+            <div class="nav-links">
+            <ul class="navegação">
+            <li class="nav-list"><a href="#sobre">SOBRE</a></li>
+            <li class="nav-list"><a href="#habilidade">HABILIDADES</a></li>
+            <li class="nav-list"><a href="#projetos">PROJETOS</a></li>
+            <li class="nav-list"><a href="#contato">CONTATO</a></li>
+        </ul>
+        </div>
+        </nav>
+    </header>
+    
+    <section id="sobre" class="sobre">
+     <div class = "sobre-mim">
+       <img src="https://upload-os-bbs.hoyolab.com/upload/2022/10/31/210304109/6ff20017834b5138371fbf172aae958a_8031718720957068557.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70" class="foto" alt="Foto de perfil">
+    <h2 class="titulo-nome">Jamile Rodrigues Bastos</h2>
+    <p class="p-perfil">Sou uma aluna da infinity school, busco aprimorar minhas habilidades em Front-end e Back-end</p>
+     </div>
+    </section>
+    
+    <section id="habilidade" class="lista-habilidades">
+        <div class="titulo-h">
+            <h2 class="titulo-habilidades">Habilidades</h2>
+        </div>
+        <div class="habilidades">
+         <ul class="habilidade-lista">
+            <li class="item-habilidade">HTML</li>
+            <li class="item-habilidade">CSS</li>
+            <li class="item-habilidade">JAVASCRIPT</li>
+            <li class="item-habilidade">PYTHON</li>
+            <li class="item-habilidade">INFORMÁTICA BÁSICA</li>
+         </ul>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="titulo-projeto">Projeto</h2>
+        
+        <div class="caixa">
+            <p class="p-projeto">Deseja ver meus projetos? acessem meu perfil do <a href="https://github.com/jamilebastos" target="_blank">GITHUB</a></p>
+        </div>
+    </section>
+
+   
+    <section id="contato" class="meu-contato">
+        <div class="contato">
+        <h2 class="titulo-contato">Contato</h2>
+       <p class="p-contato">Quer fazer contato comigo? Me envie uma mensagem.</p>
+       <form class="formulario">
+
+    <div class="nome">
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    </div>
+    
+    <div class="email">
+        <input type="email" id="email" name="email" placeholder="Digite seu Email" required> 
+    </div>
+
+    <div class="mensagem">
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>         
+    </div>
+    <button id="botão" type="submit">Enviar</button>
+    
+    </form>
+</section>
+   
+    <footer>
+        <p class="rodape">© 2025 Jamile Rodrigues Bastos.</p>
+    </footer>
+</body>
+
+</html>
